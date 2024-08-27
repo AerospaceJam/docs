@@ -1,11 +1,11 @@
-# Website
+# Aerospace Jam Docs
 
 This website is built using [Docusaurus](https://docusaurus.io/), a modern static website generator.
 
 ### Installation
 
-```
-yarnsh
+```sh
+yarn install
 ```
 
 ### Local Development
