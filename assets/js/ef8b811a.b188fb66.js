@@ -1,1 +1,0 @@
-"use strict";(self.webpackChunkaerospace_jam=self.webpackChunkaerospace_jam||[]).push([[8947],{6600:e=>{e.exports=JSON.parse('{"authors":[{"name":"Henry Martin","title":"Competition Advisor","url":"https://henrymartin.co/","page":null,"socials":{"github":"https://github.com/HENRYMARTIN5"},"key":"henrymartin","count":4}]}')}}]);
