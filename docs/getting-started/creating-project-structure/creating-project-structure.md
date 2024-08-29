@@ -26,5 +26,21 @@ For this guide, you'll need:
   git init
   ```
 
-## Creating folder structures
+## Project structure options
 
+There are many options for how you can structure your project, and there are no real "wrong" answers. You can choose to architect your project however you want - but, for ease of access for all teams, a template is provided at [this link](https://github.com/AerospaceJam/examples2024/blob/main/simple_webui). Feel free to extend the example code to your own project, write your own project from scratch, or even move beyond Python and write native C to run directly on the CPU. But I digress... Here's how you can get started with the example code:
+
+- Download the samples repository from [here](https://github.com/AerospaceJam/examples2024/archive/refs/heads/main.zip) and unzip it somewhere.
+- Copy the contents of the `simple_webui` folder to your project folder.
+- Write some contents in the `README.md`, following [basic Markdown formatting](https://www.markdownguide.org/basic-syntax/) - for example:
+  
+  ```md
+  # My Team's 2024 Aerospace Jam Codebase
+
+  This project is based on the simple WebUI example from the [Aerospace Jam Docs](https://aerospacejam.github.io/). It is capable of:
+
+  - Sensor name 1
+  - Sensor name 2
+  ```
+
+Now, we can transfer the code to the Pi and test it out!

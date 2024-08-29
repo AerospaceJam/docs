@@ -12,25 +12,17 @@ const config = {
   tagline: 'Resources and documentation for the 2024 Aerospace Jam',
   favicon: 'img/logo.png',
 
-  // Set the production url of your site here
   url: 'https://aerospacejam.github.io',
-  // Set the /<baseUrl>/ pathname under which your site is served
-  // For GitHub pages deployment, it is often '/<projectName>/'
   baseUrl: '/',
 
-  // GitHub pages deployment config.
-  // If you aren't using GitHub pages, you don't need these.
-  organizationName: 'AerospaceJam', // Usually your GitHub org/user name.
-  projectName: 'aerospacejam.github.io', // Usually your repo name.
+  organizationName: 'AerospaceJam',
+  projectName: 'aerospacejam.github.io',
 
   onBrokenLinks: 'throw',
   onBrokenMarkdownLinks: 'warn',
 
   deploymentBranch: 'gh-pages',
 
-  // Even if you don't use internationalization, you can use this field to set
-  // useful metadata like html lang. For example, if your site is Chinese, you
-  // may want to replace "en" with "zh-Hans".
   i18n: {
     defaultLocale: 'en',
     locales: ['en'],
@@ -56,7 +48,6 @@ const config = {
   themeConfig:
     /** @type {import('@docusaurus/preset-classic').ThemeConfig} */
     ({
-      // Replace with your project's social card
       image: 'img/social-card.png',
       navbar: {
         title: 'Aerospace Jam Docs',
@@ -65,7 +56,7 @@ const config = {
             type: 'docSidebar',
             sidebarId: 'tutorialSidebar',
             position: 'left',
-            label: 'Docs',
+            label: 'Home',
           },
         ],
       },
@@ -86,11 +77,16 @@ const config = {
             ],
           },
         ],
-        copyright: `Copyright © ${new Date().getFullYear()} Aerospace Jam. Built with Docusaurus.`,
+        copyright: `Copyright © ${new Date().getFullYear()} Aerospace Jam. Written by <a href="https://github.com/HENRYMARTIN5">Henry Martin</a>. Built with Docusaurus.`,
       },
       prism: {
         theme: prismThemes.github,
         darkTheme: prismThemes.dracula,
+      },
+      colorMode: {
+        defaultMode: 'dark',
+        disableSwitch: false,
+        respectPrefersColorScheme: false,
       },
     }),
 };
