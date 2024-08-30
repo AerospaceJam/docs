@@ -26,3 +26,10 @@ In order to install this new firmware on the microcontroller, we must first boot
 ## Flashing Firmware
 
 Now, open the USB device, which should be called `RPI-RP2`, and copy the MicroPython firmware file over to it. The file will take a few seconds to copy, and the light on the Pi will flash rapidly while the operation is in progress. Once it completes, the USB device will disappear, and you will be ready to proceed to the next step.
+
+## Further Reading
+
+- https://www.raspberrypi.com/documentation/microcontrollers/micropython.html
+- https://www.raspberrypi.com/documentation/microcontrollers/c_sdk.html
+- https://www.raspberrypi.com/documentation/microcontrollers/pico-series.html#raspberry-pi-pico-w-and-pico-wh
+- https://docs.micropython.org/en/latest/rp2/quickref.html
