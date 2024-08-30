@@ -9,7 +9,7 @@ import {themes as prismThemes} from 'prism-react-renderer';
 /** @type {import('@docusaurus/types').Config} */
 const config = {
   title: 'Aerospace Jam',
-  tagline: 'Resources and documentation for the 2024 Aerospace Jam',
+  tagline: 'Resources and documentation for the 2024-2025 Aerospace Jam',
   favicon: 'img/logo.png',
 
   url: 'https://aerospacejam.github.io',

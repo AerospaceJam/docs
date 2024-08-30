@@ -35,7 +35,7 @@ There are many options for how you can structure your project, and there are no 
 - Write some contents in the `README.md`, following [basic Markdown formatting](https://www.markdownguide.org/basic-syntax/) - for example:
   
   ```md
-  # My Team's 2024 Aerospace Jam Codebase
+  # My Team's 2024-2025 Aerospace Jam Codebase
 
   This project is based on the simple WebUI example from the [Aerospace Jam Docs](https://aerospacejam.github.io/). It is capable of:
 

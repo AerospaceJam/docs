@@ -50,4 +50,18 @@ If you're a `winget` user, you can run `winget install --id Git.Git -e --source 
   ![Select all options](vscode_all_options.png)
 - After the installation completes, VSCode should launch.
 
+## Further Reading
+
+:::warning
+
+Before continuing, I reccomend reviewing at least the first two links in this section to get an idea as to what git is and why you should use it.
+
+:::
+
+- https://www.geeksforgeeks.org/what-is-git/
+- https://www.youtube.com/watch?v=2ReR1YJrNOM
+- https://git-scm.com/book/en/v2/Getting-Started-What-is-Git%3F
+- https://projects.raspberrypi.org/en/projects/getting-started-with-the-pico
+- https://code.visualstudio.com/docs/introvideos/basics
+
 Now, we're ready to begin setting up our project.

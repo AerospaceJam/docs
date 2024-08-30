@@ -1,11 +1,11 @@
 ---
 sidebar_position: 1
-description: The concepts that were originally pitched for the 2024 Aerospace Jam.
+description: The concepts that were originally pitched for the 2024-2025 Aerospace Jam.
 ---
 
 # Original Concept
 
-If you're curious (which is probably why you're here), here's the exact text of the concepts that were originally pitched for the 2024 Aerospace Jam - most of them ended up making it in, except for a few notable exceptions.
+If you're curious (which is probably why you're here), here's the exact text of the concepts that were originally pitched for the 2024-2025 Aerospace Jam - most of them ended up making it in, except for a few notable exceptions.
 
 ## Challenges
 
