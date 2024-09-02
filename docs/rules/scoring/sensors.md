@@ -13,6 +13,7 @@ Teams will be assessed on the number of successful reconnaissance tasks that are
   - A judge will watch the output from the base to ensure that the values were not added by hand. Partial credit *may* be given for adding values by hand.
   - Partial credit (8 points) will be given for accurately measuring the distance to only one target.
 - 15 Points: Land on a platform and read an RFID tag.
+- 20 Points: Transmit a given digit over IR to a target receiver.
 - 30 Points: Land on a platform and read the color with a spectrometer, then convert the raw wavelengths back into a Hex color code or an RGB color code
 
 If a drone crashes and becomes inoperable, teams may elect to cancel the rest of their flight time and “walk” the drone around the competition arena to make their measurements for half credit. All measurements must still be sent to the operator in the base area digitally. Note that not all measurements are eligible for “walked” drone credit. Judges may award partial credit for measurements that are close to correct values.
