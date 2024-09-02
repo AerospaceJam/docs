@@ -11,7 +11,7 @@ Your participation in the Aerospace Jam 2022-23 Competition will be governed by 
 
 ### Federal, State, and Local Drone/UAS Laws
 
-All teams are required to comply with all federal, state, and local laws regarding the flight and operation of drones/unmanned aerial systems. Note that all FAA rules and Wisconsin laws for drones are only applicable for operating outside of a building. If you only fly your drone indoors (as we recommend), these rules and laws do not apply. If you want to fly your drone outside, you’ll need to both r[egister your drone](https://faadronezone-access.faa.gov/#/) and complete the requirements for a recreational drone pilot (including required safety test). Note that some local laws may place additional restrictions on outdoor flights.
+All teams are required to comply with all federal, state, and local laws regarding the flight and operation of drones/unmanned aerial systems. Note that all FAA rules and Wisconsin laws for drones are only applicable for operating outside of a building. If you only fly your drone indoors (as we recommend), these rules and laws do not apply. If you want to fly your drone outside, you’ll need to both [register your drone](https://faadronezone-access.faa.gov/#/) and complete the requirements for a recreational drone pilot (including required safety test). Note that some local laws may place additional restrictions on outdoor flights.
 
 *We recommend that all teams restrict their flights to indoor spaces to avoid the relatively complex rules governing outdoor flight.*
 
