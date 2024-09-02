@@ -17,6 +17,7 @@ const config = {
 
   organizationName: 'AerospaceJam',
   projectName: 'aerospacejam.github.io',
+  trailingSlash: true,
 
   onBrokenLinks: 'throw',
   onBrokenMarkdownLinks: 'warn',
