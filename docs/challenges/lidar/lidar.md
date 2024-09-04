@@ -7,6 +7,12 @@ description: ""
 
 ## Wiring
 
+:::tip
+
+Source files for this diagram are available [here](https://github.com/AerospaceJam/aerospacejam.github.io/blob/main/docs/challenges/lidar/lidar.fzz)
+
+:::
+
 ![Wiring diagram](lidar_bb.png)
 
 In case the above image is unclear, here's an additional schematic of the wiring as to prevent confusion:

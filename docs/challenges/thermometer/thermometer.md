@@ -19,6 +19,12 @@ You can substitute the 4.7k&#8486; resistor for most resistors of higher values,
 
 :::
 
+:::tip
+
+Source files for this diagram are available [here](https://github.com/AerospaceJam/aerospacejam.github.io/blob/main/docs/challenges/thermometer/thermometer.fzz)
+
+:::
+
 ![Wiring diagram](breadboard.png)
 
 ## Code
