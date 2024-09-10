@@ -65,7 +65,7 @@ def get_version() -> str:
     while utime.time() - start_tick < 10:
         if lidar.any() > 0:
             bin_ascii = lidar.read(30)
-            if bin_ascii[0] == 0x5a:
+            if bin_ascii and bin_ascii[0] == 0x5a:
                 version = bin_ascii[0:].decode('utf-8')
                 return version
             else:
@@ -83,20 +83,26 @@ def get_lidar_data() -> tuple:
     - RuntimeError: If data retrieval fails.
     """
     global lidar
-    if lidar.any() > 0:
-        bin_ascii = lidar.read(9)
-        if bin_ascii[0] == 0x59 and bin_ascii[1] == 0x59:
-            distance = bin_ascii[2] + bin_ascii[3] * 256
-            strength = bin_ascii[4] + bin_ascii[5] * 256
-            temperature = (bin_ascii[6] + bin_ascii[7] * 256) / 8 - 256
-            return distance, strength, temperature
-    raise RuntimeError("Failed to retrieve Lidar data.")
+    while True:
+        if lidar.any() > 0:
+            bin_ascii = lidar.read(9)
+            if bin_ascii and len(bin_ascii) == 9 and bin_ascii[0] == 0x59 and bin_ascii[1] == 0x59:
+                distance = bin_ascii[2] + bin_ascii[3] * 256
+                strength = bin_ascii[4] + bin_ascii[5] * 256
+                temperature = (bin_ascii[6] + bin_ascii[7] * 256) / 8 - 256
+                return distance, strength, temperature
+        utime.sleep_ms(10)
 
 # ----- Example usage -----
 # version = get_version()
+# print(version)
 # set_samp_rate(20)
 # while True:
-#     distance, strength, temperature = get_lidar_data()
+#     try:
+#         distance, strength, temperature = get_lidar_data()
+#         print(f"Distance: {distance}, Strength: {strength}, Temperature: {temperature:.2f}")
+#     except RuntimeError as e:
+#         print(e)
 ```
 
 ## Further Reading

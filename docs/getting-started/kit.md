@@ -13,7 +13,7 @@ This year, your kit will include:
 - A TF-Luna LIDAR module
 - An external thermometer
 
-And, last but not least, your actual Minds-I drone kit.
+And, last but not least, your actual Minds-I drone kit, and its controller
 
 Throughout this guide, you won't work with these sensors - you'll get them working later. For now, we're just going to focus on getting your microcontroller up and running.
 
