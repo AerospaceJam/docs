@@ -34,7 +34,7 @@ There are many options for how you can structure your project, and there are no 
 - Copy the contents of the `simple_webui` folder to your project folder.
 - Write some contents in the `README.md`, following [basic Markdown formatting](https://www.markdownguide.org/basic-syntax/) - for example:
   
-  ```md
+  ```md title="README.md"
   # My Team's 2024-2025 Aerospace Jam Codebase
 
   This project is based on the simple WebUI example from the [Aerospace Jam Docs](https://aerospacejam.github.io/). It is capable of:
