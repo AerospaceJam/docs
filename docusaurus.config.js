@@ -60,6 +60,10 @@ const config = {
             label: 'Home',
           },
         ],
+        logo: {
+          alt: 'Aerospace Jam Logo',
+          src: 'img/logo.png',
+        },
       },
       footer: {
         style: 'dark',
@@ -78,7 +82,7 @@ const config = {
             ],
           },
         ],
-        copyright: `Copyright © ${new Date().getFullYear()} Aerospace Jam. Written by <a href="https://github.com/HENRYMARTIN5">Henry Martin</a>. Built with Docusaurus.`,
+        copyright: `Copyright &copy; ${new Date().getFullYear()} Aerospace Jam. Written by <a href="https://github.com/HENRYMARTIN5">Henry Martin</a>. Built with Docusaurus.`,
       },
       prism: {
         theme: prismThemes.github,
