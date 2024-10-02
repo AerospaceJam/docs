@@ -6,12 +6,11 @@ sidebar_position: 3
 
 This is the written component of the competition (submitted by 5pm April 1, 2025). Points will be awarded in several areas:
 
-<!-- TODO: decide on a mission for this, replace all occurences of "Mars" -->
-## Titan Navigation, Communication, and Propulsion
+## Lunar Navigation, Communication, and Propulsion
 
 - High Score: 6 Points
   
-  Thorough assessment of propulsion options and control/navigation systems; feasibility on Mars surface.
+  Thorough assessment of propulsion options and control/navigation systems; feasibility on Lunar surface.
   
 - Medium Score: 4 Points
   
@@ -25,7 +24,7 @@ This is the written component of the competition (submitted by 5pm April 1, 2025
 
 - High Score: 6 Points
   
-  Thorough assessment of possible sensor array and how it may be useful on the Mars surface
+  Thorough assessment of possible sensor array and how it may be useful on the Lunar surface
 
 - Medium Score: 4 Points
   
@@ -40,7 +39,7 @@ This is the written component of the competition (submitted by 5pm April 1, 2025
 
 - High Score: 4 Points
 
-  Effective overall assessment of using UAV systems as part of the Mars mission
+  Effective overall assessment of using UAV systems as part of the moon mission
 
 - Medium Score: 3 Points
   
@@ -48,7 +47,7 @@ This is the written component of the competition (submitted by 5pm April 1, 2025
 
 - Low Score: 2 Points
 
-  Lack of overall assessment of UAV feasibility on Mars surface
+  Lack of overall assessment of UAV feasibility on Lunar surface
 
 ## Sources and Bibliography
 
@@ -63,4 +62,3 @@ This is the written component of the competition (submitted by 5pm April 1, 2025
 - Low Score: 2 Points
   
   At least 4 sources, only some used appropriately in text, bibliography incomplete or substantial formatting issues
-
