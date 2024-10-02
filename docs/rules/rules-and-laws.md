@@ -13,15 +13,31 @@ Your participation in the Aerospace Jam 2022-23 Competition will be governed by 
 
 All teams are required to comply with all federal, state, and local laws regarding the flight and operation of drones/unmanned aerial systems. Note that all FAA rules and Wisconsin laws for drones are only applicable for operating outside of a building. If you only fly your drone indoors (as we recommend), these rules and laws do not apply. If you want to fly your drone outside, you’ll need to both [register your drone](https://faadronezone-access.faa.gov/#/) and complete the requirements for a recreational drone pilot (including required safety test). Note that some local laws may place additional restrictions on outdoor flights.
 
-*We recommend that all teams restrict their flights to indoor spaces to avoid the relatively complex rules governing outdoor flight.*
+:::tip
+
+We recommend that all teams restrict their flights to indoor spaces to avoid the relatively complex rules governing outdoor flight.
+
+:::
 
 ### District/School Policies
 
-All teams are required to comply with school district rules and policies regarding flight and operation of drones/unmanned aerial systems on school property and within school buildings. *Please review drone policies before finalizing your commitment to the competition.*
+All teams are required to comply with school district rules and policies regarding flight and operation of drones/unmanned aerial systems on school property and within school buildings. 
+
+:::warning
+
+Please review your school's and your district's drone policies before finalizing your commitment to the competition.
+
+:::
 
 ### Safety
 
-The drone you will be provided, while relatively safe, is still capable of causing injury.  We will be modifying the drone to carry a payload which may cause it to fly erratically and potentially out of control.  During the competition, we will require the use of protective eyewear for teams currently competing, and we strongly encourage the use of eye protection for all participants during the testing of any indoor or outdoor flights.
+The drone you will be provided, while relatively safe, is still capable of causing injury.  We will be modifying the drone to carry a payload which may cause it to fly erratically and potentially out of control.  During the competition, we will require the use of protective eyewear for teams currently competing, and we strongly encourage the use of eye protection for all participants during the testing of any indoor or outdoor flights. 
+
+:::danger
+
+Make sure to read the [Appendix](/getting-started/appendix) entirely before flying your drone.
+
+:::
 
 ## Competition Rules
 
