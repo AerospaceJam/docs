@@ -91,12 +91,12 @@ const config = {
               },
               {
                 label: 'Discord',
-                href: 'https://discord.gg/mNC7vRhRfs',
+                href: 'https://discord.gg/ShsPVMzpyW',
               },
             ],
           },
         ],
-        copyright: `Copyright &copy; ${new Date().getFullYear()} Aerospace Jam. Written by <a href="https://github.com/HENRYMARTIN5">Henry Martin</a>. Built with Docusaurus.`,
+        copyright: `Copyright &copy; ${new Date().getFullYear()} Aerospace Jam. Written with ❤️ by <a href="https://github.com/HENRYMARTIN5">Henry Martin</a>. Built with Docusaurus.`,
       },
       prism: {
         theme: prismThemes.github,

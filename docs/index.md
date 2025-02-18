@@ -4,7 +4,7 @@ sidebar_position: 1
 
 # Welcome to the Aerospace Jam!
 
-This site contains the full rules, scoring criteria, and laws for the 2024-2025 Aerospace Jam, where Wisconsin high school teams will compete by designing and building drones for a simulated NASA mission. Along with detailed competition guidelines, you'll find a collection of useful guides, tutorials, and code snippets to assist you throughout your drone-building journey. Whether you're a beginner or an experienced participant, these resources are designed to help you succeed in this exciting challenge.
+This site contains the full rules, scoring criteria, and laws for the 2024-2025 Aerospace Jam, where Wisconsin high school teams will compete by designing and building drones for a simulated NASA mission. Along with detailed competition guidelines, you'll find a collection of useful guides, tutorials, and code snippets to assist you throughout your drone-building journey. Whether you're a beginner or an experienced participant, these resources are designed to help you succeed in this exciting challenge. If you encounter any issues, please try asking for help on the [Aerospace Jam Discord](https://discord.gg/ShsPVMzpyW), or contact [Henry Martin](mailto:henrymartin.co@outlook.com).
 
 If you're new to the Aerospace Jam, you should read the [Introduction](/introduction) first.
 
