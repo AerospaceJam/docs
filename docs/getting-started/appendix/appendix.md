@@ -15,7 +15,7 @@ You should read this page in its entirety before trying to fly your drone.
 
 ## "Fly Mode"
 
-On some controllers included with drone kits (namely the Flysky `FS-i6S`), there exists a mostly undocumented mode called "Fly Mode". If your controller has this mode, it will be visible quite plainly on the home screen:
+On some controllers included with older MINDS-I drone kits (namely the Flysky `FS-i6S`), there exists a mostly undocumented mode called "Fly Mode". If your controller has this mode, it will be visible quite plainly on the home screen:
 
 ![Fly Mode](flymode.png)
 
