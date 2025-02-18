@@ -19,6 +19,6 @@ Throughout this guide, you won't work with these sensors - you'll get them worki
 
 :::warning
 
-This guide focuses on the microcontroller only, but all future guides assume you've already built your drone kit - you can do so by following the included instructions.
+This guide focuses on the microcontroller only, but all future guides assume you've already built your drone kit - you can do so by following either the included instructions, or the [instructional videos](/assembly)
 
 :::
