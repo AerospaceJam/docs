@@ -5,6 +5,12 @@ description: Now that we've installed all the prerequisites, we can begin making
 
 # Creating Project Structure
 
+:::note
+
+A video version of these initial tutorials is available [here](https://youtu.be/NYSr9h0jw7k).
+
+:::
+
 ## Prerequisites
 
 For this guide, you'll need:

@@ -5,6 +5,12 @@ description: A guide to install MicroPython on your Pi.
 
 # Installing MicroPython
 
+:::note
+
+A video version of these initial tutorials is available [here](https://youtu.be/NYSr9h0jw7k).
+
+:::
+
 ## Prerequisites
 
 For this guide, you'll need:
