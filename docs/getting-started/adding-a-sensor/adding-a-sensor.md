@@ -67,7 +67,7 @@ def get_temp(unit: str="F") -> float:
     ds_sensor.convert_temp()
     if unit not in ["F", "C", "tuple"]:
         raise ValueError(f"Invalid unit: {unit}")
-    tempC = ds_sensor.read_temp(rom)
+    tempC = ds_sensor.read_temp(roms[0])
     tempF = temp * (9/5) + 32
     if unit == "tuple":
         return tempC, tempF
