@@ -3,7 +3,7 @@ sidebar_position: 6
 description: Now that we have our WebUI up and running, we can add a sensor's data to the stream.
 ---
 
-# Adding a Sensor to the WebUI
+# Adding a Sensor
 
 ## Prerequisites
 
