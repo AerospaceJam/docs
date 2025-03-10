@@ -5,6 +5,12 @@ description: Now that we've done the hard parts, we can upload our code to the P
 
 # Testing it All / Transferring the code to the Pi
 
+:::note
+
+A video version of these initial tutorials is available [here](https://youtu.be/NYSr9h0jw7k).
+
+:::
+
 ## Prerequisites
 
 For this guide, you'll need:

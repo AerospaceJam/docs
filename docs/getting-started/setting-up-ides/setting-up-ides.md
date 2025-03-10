@@ -5,6 +5,12 @@ description: Now that MicroPython is installed, we need to install Thonny and Vi
 
 # Setting up IDEs and Git
 
+:::note
+
+A video version of these initial tutorials is available [here](https://youtu.be/NYSr9h0jw7k).
+
+:::
+
 ## Prerequisites
 
 For this guide, you'll need:
