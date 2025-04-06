@@ -91,6 +91,8 @@ def get_lidar_data() -> tuple:
                 strength = bin_ascii[4] + bin_ascii[5] * 256
                 temperature = (bin_ascii[6] + bin_ascii[7] * 256) / 8 - 256
                 return distance, strength, temperature
+        else:
+            return 0
         utime.sleep_ms(10)
 
 # ----- Example usage -----
