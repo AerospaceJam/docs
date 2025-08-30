@@ -15,6 +15,7 @@ const config = {
   favicon: 'img/logo.png',
 
   url: 'https://docs.aerospacejam.org',
+  cname: 'docs.aerospacejam.org',
   baseUrl: '/',
 
   organizationName: 'AerospaceJam',
