@@ -14,11 +14,11 @@ const config = {
   tagline: 'Resources and documentation for the 2024-2025 Aerospace Jam',
   favicon: 'img/logo.png',
 
-  url: 'https://aerospacejam.github.io',
+  url: 'https://docs.aerospacejam.org',
   baseUrl: '/',
 
   organizationName: 'AerospaceJam',
-  projectName: 'aerospacejam.github.io',
+  projectName: 'docs',
   trailingSlash: true,
 
   onBrokenLinks: 'throw',
