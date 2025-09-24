@@ -39,7 +39,7 @@ Make sure to read the [Appendix](/getting-started/appendix) entirely before flyi
 
 ## Competition Rules
 
-- Teams are comprised of 4-8 students and a faculty leader. Student members may be added or changed at the faculty leader's discretion. Changing of the faculty leader requires notification of competition organizers.
+- Teams are comprised of 3-10 students and a faculty leader. Student members may be added or changed at the adult mentor's discretion. Changing of the adult mentor requires notification of competition organizers.
 - Teams may seek and use outside help in the construction and coding of their drone platform from any source. However, all coding specific for the competition must be done by student team members, NOT mentors. Publicly available libraries, code examples, and generic code available on public forums, as well as the examples in this documentation is allowed. In other words, all coding that is written specifically for the tasks within this competition that is not already available in this documentation must be done by student members.
 - All written portions must be completed and submitted by the deadline published on the banner on the [main competition website](https://aerospacejam.org). Codebases should also be submitted by this date.
 - Codebases will be published either on GitHub as public repositories (optionally under open-source licenses) or sent as complete ZIP files (including the `.git` folder). If you are having any issues submitting your codebase, extensions on the deadline may be given. If you make any modifications to your codebase after submitting it, you do not need to re-submit it.
