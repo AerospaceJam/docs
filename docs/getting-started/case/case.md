@@ -44,6 +44,12 @@ Then, find where the battery and the Pi sit nicely together. The PiSugar has fou
 
 ![pin contact](pin_contact.jpg)
 
+:::note
+
+Your PiSugar may have small pieces of orange film over the screw holes, just puncture them with a pointy object and peel them off to screw into them correctly. They're only present there to protect them in shipping.
+
+:::
+
 Holding it together firmly with your fingers (the springy pins will try to push it apart), first screw into the corner nearest to the pins:
 
 ![screw here first](screw_here_first.jpg)
