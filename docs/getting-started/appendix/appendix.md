@@ -20,3 +20,19 @@ On some controllers included with older MINDS-I drone kits (namely the Flysky `F
 ![Fly Mode](flymode.png)
 
 Although it may seem intuitive to enable this mode, ***ABSOLUTELY DON'T***. If Fly Mode is enabled the drone will behave erratically and has been known to take off at high speeds in random directions.
+
+## Arming a Drone
+
+In order to arm your drone, you must pull the throttle stick (on the left) down and to the right (towards the center).
+
+![Arming](arming.png)
+
+This will cause your drone's motors to spin to life, and allow you to pilot your drone as normal.
+
+## Disarming (Stopping) a Drone
+
+If you're ever flying your drone and crash, or otherwise land and need to shut off your drone urgently, pull the throttle stick (on the left) all the way down and to the left.
+
+![Disarming](disarming.png)
+
+This will immediately stop all function of the drone's motors and will require you to disconnect and re-connect the battery in order to resume flight again. Remember to ask the judges presiding over your field time for permission before entering the net to perform this operation.

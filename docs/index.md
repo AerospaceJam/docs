@@ -1,8 +1,9 @@
 ---
+title: Welcome to Aerospace Jam!
 sidebar_position: 1
 ---
 
-# Welcome to the Aerospace Jam!
+# <small>Welcome to the Aerospace Jam 2025-26 season, *Mars Payload Return*!</small>
 
 :::tip
 The Aerospace Jam has a Discord server! If you need help in any capacity, ***please*** join and ask for help:

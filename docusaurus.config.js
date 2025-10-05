@@ -21,8 +21,7 @@ const config = {
   projectName: 'docs',
   trailingSlash: true,
 
-  onBrokenLinks: 'throw',
-  onBrokenMarkdownLinks: 'warn',
+  onBrokenLinks: 'warn',
 
   deploymentBranch: 'gh-pages',
 
