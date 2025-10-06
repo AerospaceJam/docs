@@ -21,15 +21,21 @@ We recommend that all teams restrict their flights to indoor spaces to avoid the
 
 :::
 
+:::danger Indoor Flight
+
+***Only fly your drone indoors with ample room and safety barriers. If you do not have the means to set up ample room or safety precautions, then do not fly your drone indoors under any circumstances.***
+
+:::
+
 ### District/School Policies
 
 All teams are required to comply with school district rules and policies regarding flight and operation of drones/unmanned aerial systems on school property and within school buildings.
 
-Please review your school's and your district's drone policies before finalizing your commitment to the competition.
+Please review your school's and your district's drone policies before flying your drone in any capacity.
 
 ### Safety
 
-The drone you will be provided, while relatively safe, is still capable of causing injury. Teams are modifying the drone to carry a payload, which may cause it to fly erratically and potentially out of control. During the competition, we will require the use of protective eyewear for teams currently competing, and we strongly encourage the use of eye protection for all participants during the testing of any indoor or outdoor flights.
+The drone you will be provided, while relatively safe, is still capable of causing injury. Teams are modifying the drone to carry a payload, which may cause it to fly erratically and potentially out of control. During the competition, we will require the use of protective eyewear and appropriate clothing for all teams competing, and we strongly encourage the use of eye protection and appropriate clothing for all participants during the testing of any indoor or outdoor flights.
 
 :::danger
 
@@ -41,7 +47,13 @@ Make sure to read the [Getting Started guide's appendix](/getting-started/append
 
 Lithium Polymer (LiPo) batteries, which power your drone, require careful handling to prevent fire, injury, or property damage. All teams must adhere to the following battery safety protocols:
 
-- All LiPo batteries must be charged inside a fire-resistant LiPo-safe charging bag. Teams must use the charger provided in the kit or a compatible smart charger with a balance function. Never leave charging batteries unattended. Stop charging immediately if you notice any swelling, smoke, or unusual heat.
+:::danger Before you charge!
+
+***Always be sure to read and review the manual for the charger and for your batteries to ensure that the charger is correctly set. If the charger is incorrectly set for the connected battery, explosions and fires have and  will occur.***
+
+:::
+
+- All LiPo batteries must be charged correctly with the charger provided in the kit or a compatible smart charger with a balance function. Never leave charging batteries unattended. Stop charging immediately if you notice any swelling, smoke, or unusual heat.
 - When not in use, batteries must be stored in a LiPo-safe bag or a fire-resistant container, away from flammable materials. During transport to and from the competition, ensure batteries are protected from physical damage and short circuits.
 - If a battery is dropped, dented, punctured, or shows any sign of swelling ("puffing"), it must be immediately and safely taken out of service. Do not attempt to charge or use a damaged battery. Please bring any damaged batteries to a competition official for proper disposal.
 
@@ -69,7 +81,8 @@ Any questions regarding competition rules and regulations should be directed to 
 - Codebases will be published either on GitHub as public repositories (optionally under open-source licenses) or sent as complete ZIP files (including the `.git` folder). If you are having any issues submitting your codebase, extensions on the deadline may be given. If you make any modifications to your codebase after submitting it, you do not need to re-submit it.
 - Code for the competition may be written in any language, as long as it can be submitted for judging. Code examples and tutorials will be provided in Python, and as such Python will be the primary language the SDK supports. Support in meetings for other languages will be provided, but not with as much priority.
   - Please respect judges' time and please avoid submitting code in languages that are extremely esoteric, difficult to read, niche, or otherwise time or soul-consuming to judge.
-- Teams may use 3D printers or 3D printing services (e.g. Shapeways) to make components for their drone platforms except for components that are integral to flying the drone (e.g. propellers). Only stock parts may be used for drone control and flying components. This exception excludes the "legs" (landing gear) of the drone. They may be removed, modified, or replaced as long as the ability of the drone to safely land is not compromised, and the lithium ion battery is not exposed.
+- Teams may use 3D printers or 3D printing services (e.g. Shapeways) to make components for their drone platforms except for components that are integral to flying the drone (e.g. propellers).
+- Only stock parts may be used for drone control and flying components. This exception excludes the "legs" (landing gear) of the drone, and any other peripheral non-flight segments of the drone. They may be removed, modified, or replaced **as long as the ability of the drone to safely fly and land is not compromised, and the lithium ion battery is not exposed.**
 - The microcontroller must broadcast its own Wi-Fi network unique to the team during the competition and it shall not attempt to interfere with any other teams' networks. Microcontrollers may not connect to the Internet during the competition, but they may during development prior to the start of the team's competition at the event.
 - Teams may not modify the drone flight controller and/or radio in any way. Drones may not autonomously fly, or use any form of autopilot.
 - Teams may only use the drone, microcontroller, and sensor kit provided by the competition. They may not use alternative drones or alternative sensors (e.g. higher accuracy). Replacement sensors may be purchased but no more than the number provided in the original kit may be used on the drone during the competition.
