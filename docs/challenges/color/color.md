@@ -9,7 +9,7 @@ description: ""
 
 :::tip
 
-Source files for this diagram are available [here](https://github.com/AerospaceJam/aerospacejam.github.io/blob/main/docs/challenges/color/color.fzz)
+Source files for this diagram are available [here](https://github.com/AerospaceJam/docs/blob/main/docs/challenges/color/color.fzz)
 
 :::
 
