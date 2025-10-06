@@ -55,6 +55,12 @@ In the event of a malfunction or unsafe flight, all team members must be prepare
 
 ## Competition Rules
 
+:::note
+
+Any questions regarding competition rules and regulations should be directed to the support channel in the official Discord server. If clarification on rules proves neccesary, updates will be pushed to this page.
+
+:::
+
 - Teams are comprised of 2-10 students (grades 7 and up) and a adult (18+) mentor responsible for the safety of the student. Student members may be added or changed at the adult mentor's discretion. Changing of the adult mentor requires notification of competition organizers.
   - A single adult mentor may act in that role for up to 5 teams, but no more. If a single school would like to compete with more than 5 teams, please contact competition organizers for assistance.
   - Teams do not necessarily need to be affiliated with a school, and may be independently formed as long as there are 2-10 students (grades 7 and up) and an adult mentor responsible for them.
