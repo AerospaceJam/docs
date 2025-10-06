@@ -3,7 +3,12 @@
 - [x] Rules and laws
 - [x] Getting started guide
 - [ ] Update challenges
-  - [ ] BMP180 (partially done in getting started)
+  - [x] BMP180 (partially done in getting started)
+  - [x] MPU6050
+  - [ ] TF-Luna
+  - [ ] Motor
+  - [ ] Camera
+  - [ ] Talk about payloads?
 - [x] Add engineering notebook
 - [ ] Update FAA
 - [x] Remove mission planning and references to it, call it "written portion" or "engineering notebook" instead
