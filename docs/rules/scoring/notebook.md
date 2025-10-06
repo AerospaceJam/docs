@@ -6,7 +6,7 @@ sidebar_position: 3
 
 The Engineering Notebook is your team's story. It is a document that chronicles your journey from the initial concept to the final competition-ready drone. It should detail your design process, celebrate your breakthroughs, and, most importantly, document your challenges and how you overcame them. A well-maintained notebook is the hallmark of a great engineering team.
 
-:::note "Written portion"? "Mission Report"? What are those?
+:::note "Written portion"? "Mission Report"? "Mission Planning?" What are those?
 
 Because the Engineering Notebook replaces previous years' Mission Report, this may be referred to as the "written portion" in some rules or pages in this documentation or the Aerospace Jam website. If you do notice any discrepancies anywhere referencing the Mission Report still, let a competiton organizer know... we're human, too!
 
