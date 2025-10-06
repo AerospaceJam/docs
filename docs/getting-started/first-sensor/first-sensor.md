@@ -41,14 +41,6 @@ If your BMP180 is unsoldered, you can either solder wires directly to it, or att
 
 :::
 
-![bmp180 wiring diagram](../../challenges/bmp180/bmp180_bb.png)
-
-:::warning
-
-Make sure that the SDA and SCL pins are connected correctly! If you have them flipped, nothing will work and it'll be very hard to tell why.
-
-:::
-
 ## Code
 
 First, open your `teamCode` in Thonny, as described in the previous tutorial.
