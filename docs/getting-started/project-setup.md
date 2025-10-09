@@ -37,7 +37,7 @@ As you look at the template project already located in `teamCode`, you'll notice
         return render_template('index.html')
     ```
 
-- `static` is where other files that your website needs to serve up that *aren't* pages go. The only file in here is `js/socket.io.js`, which is a library that allows you to communicate back and forth with your server from your website and ground control station in realtime without having to worry about any complicated code. You won't EVER need to modify this code, and if you ever are instructed to manually modify it, disregard the instructions to do so.
+- `static` is where other files that your website needs to serve up that *aren't* pages go. The only file in here is `js/socket.io.js`, which is a library that allows you to communicate back and forth with your server from your website and ground control station in real time without having to worry about any complicated code. You won't EVER need to modify this code, and if you ever are instructed to manually modify it, disregard the instructions to do so.
   - You can add other files to this folder in any structure that you like and load them from templates with `{{ url_for('static', filename='<path to your file>') }}`, where `<path to your file>` is the file you added.
 
 ## Configuring git
@@ -82,13 +82,13 @@ A "commit" is a snapshot of your files at a specific point in time. It's crucial
 
 - **Tracking Progress:** Commits create a historical log of your project, making it easy to see how it has evolved.
 - **Safety Net:** If you make a mistake, you can easily revert to a previous working version of your code.
-- **Collaboration:** Frequent commits keep your teammates updated on your progress and help to avoid merge conflicts.
+- **Collaboration:** Frequent commits keep your teammates updated on your progress and help to avoid merge conflicts, which is when git has to reconcile two different versions of a codebase.
 
 A good rule of thumb is to make a commit after you complete a small, logical task, such as fixing a bug or adding a new feature.
 
 ### Writing good commit messages
 
-A good commit message is as important as the code itself. It helps your future self and your teammates understand the changes you made and why, and it assists you in writing your engineering notebook later on. Here are some gentle suggestions for writing great commit messages:
+A good commit message is as important as the code itself. It helps your future self and your teammates understand the changes you made and why, and it assists you in writing your engineering notebook later on. A good rule of thumb when writing commit messages is to imagine your future self trying to understand why you changed something. Here are some gentle suggestions for writing great commit messages:
 
 - **Separate the subject from the body with a blank line.**
 - **Limit the subject line to 50 characters.** This keeps it concise and readable.

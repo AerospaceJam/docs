@@ -27,7 +27,7 @@ Your TF-Luna can only be connected to with a special connector. The easiest way 
 
 ## Code
 
-Again, like the previous sensors, the neccesary library is included in the SDK, and as with the BMP180, Aerospace Jam rolls its own fork of the library for ease of use. You can get the [source code here](https://github.com/AerospaceJam/tfluna). From Python, you can quite easily use the library like this:
+Again, like the previous sensors, the necessary library is included in the SDK, and as with the BMP180, Aerospace Jam rolls its own fork of the library for ease of use. You can get the [source code here](https://github.com/AerospaceJam/tfluna). From Python, you can quite easily use the library like this:
 
 ```py
 from tfluna import TFLuna

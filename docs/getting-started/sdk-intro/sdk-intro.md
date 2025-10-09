@@ -28,7 +28,7 @@ Let's get your Pi set up as a temporary desktop computer.
 1. **Connect Peripherals:** Plug the white MicroUSB hub into the Pi's **data** port. This is the middle MicroUSB port, the one that is *not* labeled for power.
 2. **Connect Display:** Plug the HDMI cable into the Pi's Mini HDMI port and into your monitor.
 3. **Connect Input:** Connect your keyboard and mouse to the USB hub.
-4. **Power Up:** Finally, plug a USB-C power supply into the port on the **PiSugar battery pack**, and flip the switch on. The Pi will begin to boot up immediately.
+4. **Power Up:** Finally, plug a USB-C power supply into the port on the **PiSugar battery pack** and flip the switch on. The Pi will begin to boot up immediately.
 
 ## Understanding the Modes
 
