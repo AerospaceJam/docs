@@ -3,6 +3,7 @@
         "Flysky",
         "Mortensen",
         "randint",
-        "socketio"
+        "socketio",
+        "tfluna"
     ]
 }
