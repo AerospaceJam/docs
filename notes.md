@@ -5,8 +5,8 @@
 - [ ] Update challenges
   - [x] BMP180 (partially done in getting started)
   - [x] MPU6050
-  - [ ] TF-Luna
-  - [ ] Motor
+  - [x] TF-Luna
+  - [x] Motor
   - [ ] Camera
   - [ ] Talk about payloads?
 - [ ] Make sure SDK image is up to date

@@ -38,7 +38,7 @@ tfluna.set_samp_rate(5) # 5Hz, so 5 samples per second. The higher this number i
 
 distance, strength, temperature = tfluna.read() # This uses special syntax called a "tuple" to set all three variables at once from the same function.
 # Now, we can simply access them:
-print(f"Distance: {distance} cm")
+print(f"Distance: {round(distance * 100.0, 2)} cm")
 print(f"Strength: {strength}")
 print(f"Temperature: {temperature} C")
 ```
