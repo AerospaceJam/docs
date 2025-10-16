@@ -1,0 +1,91 @@
+<!-- templates/index.html -->
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Aerospace Jam - Full Example</title>
+    <script src="{{ url_for('static', filename='js/socket.io.js') }}"></script>
+    <style>
+        body { font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif; line-height: 1.6; padding: 2em; max-width: 800px; margin: 0 auto; background-color: #f4f4f9; }
+        h1, h2 { color: #333; border-bottom: 2px solid #ddd; padding-bottom: 10px; }
+        .data-grid { display: grid; grid-template-columns: repeat(auto-fit, minmax(250px, 1fr)); gap: 1em; }
+        .data-point { background-color: #fff; padding: 1em; border-radius: 8px; box-shadow: 0 2px 4px rgba(0,0,0,0.1); }
+        .data-point b { color: #0056b3; }
+        .data-point span { font-weight: bold; color: #d9534f; }
+        .controls { margin-top: 1.5em; background-color: #fff; padding: 1em; border-radius: 8px; box-shadow: 0 2px 4px rgba(0,0,0,0.1); }
+        button { background-color: #007bff; color: white; padding: 10px 15px; border: none; border-radius: 5px; cursor: pointer; font-size: 1em; margin-right: 10px; }
+        button:hover { background-color: #0056b3; }
+        button.stop { background-color: #dc3545; }
+        button.stop:hover { background-color: #c82333; }
+        .footer { margin-top: 2em; text-align: center; color: #666; }
+    </style>
+</head>
+<body>
+
+    <h1>Aerospace Jam Example Codebase (2025-26)</h1>
+
+    <h2>Sensor Readings</h2>
+    <div class="data-grid">
+        <div class="data-point">
+            <p><b>Barometric Pressure:</b> <span id="barometricPressure">Loading...</span> hPa</p>
+        </div>
+        <div class="data-point">
+            <p><b>LiDAR Distance:</b> <span id="lidarDistance">Loading...</span> cm</p>
+        </div>
+        <div class="data-point">
+            <p><b>Accelerometer (X, Y, Z):</b></p>
+            <p><span id="accelX">...</span>, <span id="accelY">...</span>, <span id="accelZ">...</span> g</p>
+        </div>
+        <div class="data-point">
+            <p><b>Gyroscope (X, Y, Z):</b></p>
+            <p><span id="gyroX">...</span>, <span id="gyroY">...</span>, <span id="gyroZ">...</span> °/s</p>
+        </div>
+    </div>
+
+    <h2>Controls</h2>
+    <div class="controls">
+        <p><b>Motor Control:</b></p>
+        <button id="motorForwardButton">Forward</button>
+        <button id="motorBackwardButton">Backward</button>
+        <button id="motorStopButton" class="stop">Stop</button>
+    </div>
+
+    <script>
+        document.addEventListener('DOMContentLoaded', function() {
+            const socket = io();
+
+            socket.on('connect', () => console.log('Successfully connected to the server!'));
+
+            socket.on('update_data', function(data) {
+                if (data.error) {
+                    console.error("Server-side error:", data.error);
+                    return;
+                }
+                document.getElementById('barometricPressure').textContent = data.barometricPressure ?? 'N/A';
+                document.getElementById('lidarDistance').textContent = data.lidarDistance ?? 'N/A';
+                document.getElementById('accelX').textContent = data.accelX ?? 'N/A';
+                document.getElementById('accelY').textContent = data.accelY ?? 'N/A';
+                document.getElementById('accelZ').textContent = data.accelZ ?? 'N/A';
+                document.getElementById('gyroX').textContent = data.gyroX ?? 'N/A';
+                document.getElementById('gyroY').textContent = data.gyroY ?? 'N/A';
+                document.getElementById('gyroZ').textContent = data.gyroZ ?? 'N/A';
+            });
+
+            function sendMotorCommand(command) {
+                console.log(`Sending motor command: ${command}`);
+                socket.emit('control_motor', { action: command });
+            }
+
+            document.getElementById('motorForwardButton').addEventListener('click', () => sendMotorCommand('forward'));
+            document.getElementById('motorBackwardButton').addEventListener('click', () => sendMotorCommand('backward'));
+            document.getElementById('motorStopButton').addEventListener('click', () => sendMotorCommand('stop'));
+        });
+    </script>
+
+    <div class="footer">
+        <p>Aerospace Jam 2025</p>
+    </div>
+
+</body>
+</html>
