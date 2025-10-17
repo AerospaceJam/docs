@@ -68,3 +68,5 @@ A great way to structure your notebook is to base your entries on your git commi
 - **Format:** The Engineering Notebook should be submitted as a single digital file (PDF is preferred) along with your codebase.
 - **Deadline:** The notebook must be submitted by the same deadline as the codebase, published on the [front page of the docs](/).
 - **Content:** While there is no page limit, focus on quality over quantity. A concise, well-documented 20-page notebook is far more valuable than a 100-page book of unorganized notes.
+
+Please submit your codebase digitally, or as a digital scan of a physical notebook. Links to cloud document providers are accepted (e.g. to Canva, Google Docs, etc.), but PDFs or fully self-contained files are preferred. If there is an issue with your cloud document provider's link, attempts will be made to notify you of the issues, but if you do not respond or do not fix the issues before the deadline, your submissions will not be scored.
