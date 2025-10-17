@@ -11,7 +11,7 @@ app = Flask(__name__)
 app.config['SECRET_KEY'] = 'your-secret-key!'
 socketio = SocketIO(app)
 
-MOTOR_IN1_PIN = 12
+MOTOR_IN1_PIN = 5
 MOTOR_IN2_PIN = 6
 
 print("INFO: Initializing hardware...")

@@ -31,8 +31,8 @@ The code for this is relatively simple, as all we're doing is turning the pins o
 import RPi.GPIO as GPIO
 
 # First, we define our two output pins that the motor controller is connected to.
-IN1 = 12  # GPIO 12
-IN2 = 6   # GPIO 6
+IN1 = 5
+IN2 = 6
 
 # Set the GPIO numbering mode so that it knows how we're referring to the pins
 GPIO.setmode(GPIO.BCM)
@@ -84,7 +84,7 @@ Motor not spinning? Run through this quick checklist:
 - **Check Power:**
   - Ensure the L298N controller's red power LED is lit.
   - 9V batteries drain quickly under motor load. Try a fresh battery, or try recharging the battery you currently have plugged in. The battery will have a completely standard USB-C port that you can use to charge it - just plug it into any adapter you have on hand!
-- **Verify Code:** Ensure your code is using `GPIO 12` and `GPIO 6`, matching the wiring diagram.
+- **Verify Code:** Ensure your code is using `GPIO 5` and `GPIO 6`, matching the wiring diagram.
 - **Hardware Test:** Briefly touch the two motor wires directly to the 9V battery terminals. If it doesn't spin, the motor itself may be broken.
 
 Still stuck? Reach out to competition administrators for help.
