@@ -53,7 +53,7 @@ This section scores the overall readability and structure of your notebook. A we
 
 :::tip Using Your git History
 
-A great way to structure your notebook is to base your entries on your git commits. The guide on [Project Setup](/getting-started/project-setup#writing-good-commit-messages) explains how to write good commit messages. Using these as a starting point for your notebook entries is a fantastic way to ensure you are documenting your progress consistently!
+A great way to structure your notebook is to base your entries on your git commits. The guide on [Project Setup](/getting-started/project-setup/#writing-good-commit-messages) explains how to write good commit messages. Using these as a starting point for your notebook entries is a fantastic way to ensure you are documenting your progress consistently!
 
 :::
 
