@@ -2,22 +2,21 @@
 
 - [x] Rules and laws
 - [x] Getting started guide
-- [ ] Update challenges
+- [x] Update challenges
   - [x] BMP180 (partially done in getting started)
   - [x] MPU6050
   - [x] TF-Luna
   - [x] Motor
   - [x] Camera
-  - [ ] Talk about payloads?
 - [x] Make sure SDK image is up to date
 - [x] Add engineering notebook
-- [ ] Update FAA
+- [x] Update FAA
 - [x] Remove mission planning and references to it, call it "written portion" or "engineering notebook" instead
 - [x] Rebalance design scoring
-- [ ] Add sensors and recon on new field
-- [ ] Finally, rebalance everything again just to be safe (especially notebook!)
-- [ ] Better spot to submit written portion/codebase? On main asj site? Via discord? We'll see
+- [x] Finally, rebalance everything again just to be safe (especially notebook!)
+- [x] Better spot to submit written portion/codebase? On main asj site? Via discord? We'll see
 - [ ] Design new field CAD
+- [ ] Add sensors and recon on new field
 - [ ] Animate reveal video
 - [ ] Add countdown dates
 - [ ] Done?
