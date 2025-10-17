@@ -9,7 +9,7 @@
   - [x] Motor
   - [ ] Camera
   - [ ] Talk about payloads?
-- [ ] Make sure SDK image is up to date
+- [x] Make sure SDK image is up to date
 - [x] Add engineering notebook
 - [ ] Update FAA
 - [x] Remove mission planning and references to it, call it "written portion" or "engineering notebook" instead
