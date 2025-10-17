@@ -6,12 +6,6 @@ sidebar_position: 4
 
 To reward teams for their creativity, technical skill, and hard work, we will be judging several design categories. This section breaks down how your team can earn points for your base station, codebase, and drone construction.
 
-:::note Maximum Point Values
-
-All point values provided in the rubrics are the **maximum** that can be awarded for that category. Judges may award partial points based on how well your submission meets the criteria.
-
-:::
-
 ## Total Possible Design Score: 22 Points
 
 | Category | Maximum Points |
@@ -51,12 +45,15 @@ Your team's codebase will be evaluated on its organization, originality, efficie
 | **Good Use of Source Control** | 2 Points | The `git` history shows frequent, well-described commits. | Commits are infrequent, or have vague descriptions. | The repository has only one or two commits with large amounts of code. |
 
 ### How to Submit Your Codebase
+
 You can submit your code in one of two ways:
 
-1.  **GitHub:** Publish your code in a public GitHub repository and send us the link.
-2.  **ZIP File:** Send a complete ZIP file of your project, making sure to include the `.git` folder so we can review your commit history.
+1. **GitHub:** Publish your code in a public GitHub repository and send us the link.
+2. **ZIP File:** Send a complete ZIP file of your project, making sure to include the `.git` folder so we can review your commit history.
 
 Please contact competition administrators via Discord or email if you need any support with your submission. You do not need to resubmit your code if you make changes after the deadline.
+
+For more information, see the corresponding section in the [Rules and Laws](/rules/laws/#submitting-codebasenotebook) page.
 
 ---
 
