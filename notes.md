@@ -7,7 +7,7 @@
   - [x] MPU6050
   - [x] TF-Luna
   - [x] Motor
-  - [ ] Camera
+  - [x] Camera
   - [ ] Talk about payloads?
 - [x] Make sure SDK image is up to date
 - [x] Add engineering notebook
@@ -19,4 +19,5 @@
 - [ ] Better spot to submit written portion/codebase? On main asj site? Via discord? We'll see
 - [ ] Design new field CAD
 - [ ] Animate reveal video
+- [ ] Add countdown dates
 - [ ] Done?
