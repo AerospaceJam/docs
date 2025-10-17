@@ -40,7 +40,7 @@ This category scores the user interface (UI) and user experience (UX) of your ba
 Your team's codebase will be evaluated on its organization, originality, efficiency, and use of source control. It should demonstrate good programming practices and reflect the team's unique work.
 
 :::warning Codebase Submission Deadline
-**You will receive 0 points for the entire Codebase category if you do not submit your code before the deadline.** If you need an extension, you must request one from competition organizers. You can see the current competition deadlines on the [website](https://aerospacejam.org/) at all times.
+**You will receive 0 points for the entire Codebase category if you do not submit your code before the deadline.** If you need an extension, you must request one from competition organizers. You can see the current competition deadlines on the [front page of the docs](/) at all times.
 :::
 
 | Category | Max Points | Excellent | Good | Needs Improvement |

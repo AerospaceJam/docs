@@ -5,6 +5,8 @@ sidebar_position: 1
 
 # <small>Welcome to the Aerospace Jam 2025-26 season, *Mars Payload Return*!</small>
 
+import Countdown from '@site/src/components/Countdown';
+
 :::tip
 The Aerospace Jam has a Discord server! If you need help in any capacity, ***please*** join and ask for help:
 
@@ -17,3 +19,11 @@ This site contains the full rules, scoring criteria, and laws for the 2025-2026 
 If you're new to the Aerospace Jam, you should read the [Introduction](/introduction) first.
 
 If you're considering joining the Aerospace Jam, you should read the [Laws and Rules](/rules/rules-and-laws) first to ensure that you're able to compete.
+
+## Season Dates
+
+<h3><center>Competition</center></h3>
+<Countdown targetDate="2025-12-31T23:59:59" />
+
+<h3><center>Notebook/Codebase Deadline</center></h3>
+<Countdown targetDate="2025-12-31T23:59:59" />

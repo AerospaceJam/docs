@@ -1,0 +1,43 @@
+.countdownContainer {
+  display: flex;
+  justify-content: center;
+  gap: 1.5rem;
+  text-align: center;
+  font-family: sans-serif;
+  background-color: #303846;
+  padding: 2rem;
+  border-radius: 8px;
+}
+
+.countdownItem {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.countdownValue {
+  font-size: 3rem;
+  font-weight: bold;
+  color: #22c2a0;
+  line-height: 1;
+}
+
+.countdownLabel {
+  font-size: 1rem;
+  color: #f8f8f2;
+  text-transform: uppercase;
+  margin-top: 0.5rem;
+}
+
+.wrapper {
+  display: flex;
+  flex-direction: column;
+}
+
+.targetDateText {
+  text-align: center;
+  margin-top: 1rem;
+  color: #57dfa6;
+  font-size: 1.1rem;
+  font-weight: 500;
+}

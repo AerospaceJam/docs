@@ -66,5 +66,5 @@ A great way to structure your notebook is to base your entries on your git commi
 ### Submission Guidelines
 
 - **Format:** The Engineering Notebook should be submitted as a single digital file (PDF is preferred) along with your codebase.
-- **Deadline:** The notebook must be submitted by the same deadline as the codebase, published on the [main competition website](https://aerospacejam.org).
+- **Deadline:** The notebook must be submitted by the same deadline as the codebase, published on the [front page of the docs](/).
 - **Content:** While there is no page limit, focus on quality over quantity. A concise, well-documented 20-page notebook is far more valuable than a 100-page book of unorganized notes.
