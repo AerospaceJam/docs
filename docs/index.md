@@ -18,7 +18,7 @@ This site contains the full rules, scoring criteria, and laws for the 2025-2026 
 
 If you're new to the Aerospace Jam, you should read the [Introduction](/introduction) first.
 
-If you're considering joining the Aerospace Jam, you should read the [Laws and Rules](/rules/rules-and-laws) first to ensure that you're able to compete.
+If you're considering joining the Aerospace Jam, you should read the [Laws and Rules](/rules/laws) first to ensure that you're able to compete.
 
 ## Season Dates
 

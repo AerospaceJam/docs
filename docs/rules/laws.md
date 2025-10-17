@@ -7,6 +7,10 @@ description: The critical rules and laws that you must abide by during competiti
 
 Your participation in Aerospace Jam 2025-26 will be governed by federal and state laws, school district policies, and competition rules. Please read these laws and rules carefully before starting work on your drone platform and before any testing or flights. Don’t hesitate to contact us if you have questions about applicable laws or competition rules at any point during the competition year.
 
+:::info Heads up!
+Balancing of the scoring sections may occur after the start of the season, and point values for various sections of the competition are subject to change.
+:::
+
 ## Laws
 
 ### Federal, State, and Local Drone/UAS Laws
@@ -115,3 +119,12 @@ Spectators are welcome and encouraged, but they must remain in designated viewin
 ### Dispute Resolution
 
 If a team has a question or concern about a ruling, their adult mentor should approach the head judge respectfully and professionally after the match is complete. The head judge's decision on all rulings is final. To ensure fairness and timeliness, judges will not review video recordings or other evidence provided by teams.
+
+## Submitting Codebase/Notebook
+
+In order to submit your [engineering notebook](/rules/scoring/notebook/#submission-guidelines) and your [codebase for design scoring](/rules/scoring/design/#how-to-submit-your-codebase) (click either link for individual submission guidelines for that section), you have a few options. You can either:
+
+- Send links, files, or links to files on cloud file-sharing services (such as Google Drive) to organizers on the Discord
+- Or the same, but with an email
+
+In order to have your codebase and notebook recieved, please ONLY send your submissions to Henry - either via `@n3rdl0rd` on Discord, or to `henrymartin.co@outlook.com` via email. In order to send a message on Discord without being filtered for spam, you should also be part of the Aerospace Jam Discord. If this is infeasible, please reach out via email instead. Keep in mind that all deadlines are published on the [front page of the docs](/).
