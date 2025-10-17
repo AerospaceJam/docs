@@ -36,7 +36,7 @@ The SDK has two modes of operation: **Development Mode** and **Competition Mode*
 
 | Mode | Wi-Fi Behavior | Purpose | How Code Runs |
 | :--- | :--- | :--- | :--- |
-| **Development Mode** | Connects to existing Wi-Fi networks (like a laptop). | Writing, testing, and debugging your code. Gives you internet access to download tools or look up documentation. | **Manually**, by pressing the "Run" button in your code editor (Thonny). |
+| **Development Mode** | Connects to existing Wi-Fi networks (like a laptop). | Writing, testing, and debugging your code. Gives you internet access to download tools or look up documentation. | **Manually**, by pressing the "Run" button in your code editor (Thonny), or by `sudo systemctl start teamcode`. |
 | **Competition Mode** | Creates its own Wi-Fi hotspot. | The official mode for competition day. Your laptop connects *to the Pi*. No internet access is allowed. | **Automatically** starts your `main.py` script as soon as the mode is enabled. |
 
 You can switch between modes using the shortcuts on the desktop. When you double-click one, you may be prompted to choose an action; just click **"Execute"**.
@@ -67,9 +67,13 @@ On the left pane, you'll now see a `Files` tab. It will start by default in `/ho
 
 Before continuing to the next section, head back to the desktop and double-click the Development Mode shortcut to enable it.
 
+:::tip If you don't want to use Thonny...
+You can also SSH into your Pi and use Visual Studio Code. To find out how, read [this section of the Appendix](/getting-started/appendix/#using-ssh-in-vscode)!
+:::
+
 ## Running Code (Development Mode)
 
-:::tip What is an IP Address?
+:::info What is an IP Address?
 
 An IP address is like a street address for a device on a network. The `127.0.0.1` address is special; it always means "this computer itself". To connect from *another* device, you need the real "street address," which is the one that usually starts with `192.168.x.x` or `10.x.x.x`.
 
