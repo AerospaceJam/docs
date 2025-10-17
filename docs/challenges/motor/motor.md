@@ -31,8 +31,8 @@ The code for this is relatively simple, as all we're doing is turning the pins o
 import RPi.GPIO as GPIO
 
 # First, we define our two output pins that the motor controller is connected to.
-IN1 = 5
-IN2 = 6
+IN1 = 12
+IN2 = 13
 
 # Set the GPIO numbering mode so that it knows how we're referring to the pins
 GPIO.setmode(GPIO.BCM)
