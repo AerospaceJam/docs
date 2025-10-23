@@ -39,9 +39,9 @@ Your team's codebase will be evaluated on its organization, originality, efficie
 
 | Category | Max Points | Excellent | Good | Needs Improvement |
 | :--- | :--- | :--- | :--- | :--- |
-| **Codebase Organization** | 2 Points | The codebase is well-structured, easy to navigate, and follows the best practices outlined in the [Getting Started guide](/category/getting-started). | The code has some structure, but files may be disorganized or named confusingly. | Code is in a single file or has no clear organizational structure. |
+| **Codebase Organization** | 2 Points | The codebase is well-structured, easy to navigate, and follows the best practices outlined in the [Getting Started guide](/getting-started/project-setup). | The code has some structure, but files may be disorganized or named confusingly. | Code is in a single file or has no clear organizational structure. |
 | **Code Originality** | 3 Points | Code shows significant student-authored logic and problem-solving beyond the provided examples. | Code is a functional modification of the examples, but relies heavily on the original structure. | Code is a direct copy of the provided examples with minimal changes. |
-| **Code Elegance** | 1 Point | Code is clean, efficient, and easy to read. It solves problems in a direct and clever way, and applies existing libraries and utilities effectively to problems. | The code is functional, but may be inefficient or difficult to follow. | - |
+| **Code Elegance** | 1 Point | Code is clean, efficient, and easy to read. It solves problems in a direct and clever way, and applies existing libraries and utilities effectively to problems. | The code is functional, but may be inefficient or difficult to follow. | The code does not consistently function, or functions with frequent errors or warnings. |
 | **Good Use of Source Control** | 2 Points | The `git` history shows frequent, well-described commits. | Commits are infrequent, or have vague descriptions. | The repository has only one or two commits with large amounts of code. |
 
 ### How to Submit Your Codebase
