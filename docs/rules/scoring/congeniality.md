@@ -10,7 +10,7 @@ Towards the end of the competition, each team will be prompted to submit their n
 
 :::note
 
-A team can hypothetically gain an infinite amount of bonus points from the Congeniality Bonus - but this would require a lot of work to sway the favors of the other teams. Keep this in mind during competition day!
+A team can hypothetically gain an arbitrarily large amount of bonus points from the Congeniality Bonus - but this would require a lot of work to sway the favors of the other teams. Keep this in mind during competition day!
 
 :::
 
