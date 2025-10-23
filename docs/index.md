@@ -27,3 +27,5 @@ If you're considering joining the Aerospace Jam, you should read the [Laws and R
 
 <h3><center>Notebook/Codebase Deadline</center></h3>
 <Countdown targetDate="2025-12-31T23:59:59" />
+
+See [Submitting Your Codebase/Notebook](/rules/laws/#submitting-your-codebasenotebook) for more information.
