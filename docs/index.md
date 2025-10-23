@@ -38,9 +38,9 @@ This site contains the full rules, scoring criteria, and laws for the 2025-2026 
 ## Season Dates
 
 <h3><center>Competition</center></h3>
-<Countdown targetDate="2025-12-31T23:59:59" />
+<Countdown targetDate="2026-04-05T07:00:00" />
 
 <h3><center>Notebook/Codebase Deadline</center></h3>
-<Countdown targetDate="2025-12-31T23:59:59" />
+<Countdown targetDate="2026-04-03T20:00:00" />
 
 <center>See [Submitting Your Codebase/Notebook](/rules/laws/#submitting-your-codebasenotebook) for more information.</center>
