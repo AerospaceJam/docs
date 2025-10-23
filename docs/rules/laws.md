@@ -78,7 +78,7 @@ Any questions regarding competition rules and regulations should be directed to 
 :::
 
 - Teams are comprised of 2-10 students (grades 7 and up) and an adult (18+) mentor responsible for the safety of the student. Student members may be added or changed at the adult mentor's discretion. Changing of the adult mentor requires notification of competition organizers.
-  - A single adult may act as a mentor for up to 5 teams, but no more. If a single school would like to compete with more than 5 teams, please contact competition organizers for assistance.
+  - A single adult may act as a mentor for up to 5 teams, but no more. If a single adult mentor would like to compete with more than 5 teams, please contact competition organizers for assistance. We may also require additional adult mentors if they mentor multiple large (9-10 student) teams, on a case-by-case basis.
   - Teams do not necessarily need to be affiliated with a school, and may be independently formed as long as there are 2-10 students (grades 7 and up) and an adult mentor responsible for them.
 - Teams may seek and use outside help in the construction and coding of their drone platform from any source. However, all programming specific for the competition must be done by student team members, NOT mentors. Publicly available libraries, code examples, and generic code available on public forums, as well as the examples in this documentation are allowed. In other words, all code that is written specifically for the tasks within this competition that is not already available in this documentation must be done by student members.
 - All written portions must be completed and submitted by the deadline published on the [front page of the docs](/). Codebases should also be submitted by this date.
@@ -99,6 +99,7 @@ Any questions regarding competition rules and regulations should be directed to 
 - Any payload carried by the drone must be securely attached, unless explicitly designed to detach. The payload must not contain any hazardous materials, including but not limited to liquids, sharp objects, or flammable substances. The total weight and dimensions of the payload must not compromise the drone's flight stability. Judges reserve the right to inspect and disallow any payload deemed unsafe.
 - Before the start of each competition match, teams will be required to complete a brief pre-flight inspection with a judge. This will include verifying battery connection, propeller security, and payload attachment to ensure the drone is safe for flight.
 - Usage of large language models (LLMs) such as ChatGPT, Gemini, or Claude is allowed (although discouraged) for code, but is not allowed for the written portions of the competition. Suspicions of LLM usage in written portions will only have action taken in the case of egregious violations, at the judges' discretion.
+  - If you use an LLM obviously on your Engineering Notebook, judges will absolutely laugh at you behind your back. Be warned. It's also usually very obvious when you use LLMs for your code - and this will be a detriment to your originality and code Design Scoring.
 - Any team suspected of cheating, e.g. disallowed drone modification, receiving competition arena information early, may be subject to point penalties and/or complete disqualification from the competition, at judges' discretion.
 - A three-judge panel will assess any penalties.
 
@@ -120,7 +121,7 @@ Spectators are welcome and encouraged, but they must remain in designated viewin
 
 If a team has a question or concern about a ruling, their adult mentor should approach the head judge respectfully and professionally after the match is complete. The head judge's decision on all rulings is final. To ensure fairness and timeliness, judges will not review video recordings or other evidence provided by teams.
 
-## Submitting Codebase/Notebook
+## Submitting Your Codebase/Notebook
 
 In order to submit your [engineering notebook](/rules/scoring/notebook/#submission-guidelines) and your [codebase for design scoring](/rules/scoring/design/#how-to-submit-your-codebase) (click either link for individual submission guidelines for that section), you have a few options. You can either:
 
