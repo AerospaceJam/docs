@@ -18,7 +18,7 @@
 .countdownValue {
   font-size: 3rem;
   font-weight: bold;
-  color: #22c2a0;
+  color: #25c2a0;
   line-height: 1;
 }
 
@@ -37,7 +37,7 @@
 .targetDateText {
   text-align: center;
   margin-top: 1rem;
-  color: #57dfa6;
+  color: #25c2a0;
   font-size: 1.1rem;
   font-weight: 500;
 }
