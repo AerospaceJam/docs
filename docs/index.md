@@ -44,3 +44,29 @@ This site contains the full rules, scoring criteria, and laws for the 2025-2026 
 <Countdown targetDate="2026-04-03T20:00:00" />
 
 <center>See [Submitting Your Codebase/Notebook](/rules/laws/#submitting-your-codebasenotebook) for more information.</center>
+
+## Frequently Asked Questions
+
+<details>
+  <summary>What is the maximum team size?</summary>
+
+  Teams can have a minimum of 2 and a maximum of 10 student members, plus one adult mentor (teacher or parent).
+</details>
+
+<details>
+  <summary>Are there any restrictions on the hardware we can use?</summary>
+
+  For the core sensor kit, you must use the parts we provide. We do this to ensure a level playing field for all teams. If any of your provided parts are not working, we will provide replacements, but you must use the official parts. For all other non-sensor and challenge-related aspects of your drone, you are free to use any hardware you like, as long as it complies with the safety and size constraints in the documentation.
+</details>
+
+<details>
+  <summary>What is the registration fee?</summary>
+
+  There is none! Aerospace Jam is 100% for all teams and mentors involved, and is fully funded by the WSGC and generous industry grants, as well as our partners.
+</details>
+
+<details>
+  <summary>Can multiple teams share a mentor?</summary>
+
+  Yes! A single adult mentor can have up to 5 teams under them, to accommodate high schools or community organizations with lots of students.
+</details>
