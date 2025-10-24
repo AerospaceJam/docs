@@ -15,8 +15,8 @@
 - [x] Rebalance design scoring
 - [x] Finally, rebalance everything again just to be safe (especially notebook!)
 - [x] Better spot to submit written portion/codebase? On main asj site? Via discord? We'll see
-- [ ] Design new field CAD
-- [ ] Add sensors and recon on new field
+- [x] Design new field CAD
+- [x] Add sensors and recon on new field
 - [ ] Animate reveal video
 - [ ] Add countdown dates
 - [ ] Done?
