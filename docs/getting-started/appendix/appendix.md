@@ -35,7 +35,7 @@ If you're ever flying your drone and crash, or otherwise land and need to shut o
 
 ![Disarming](disarming.png)
 
-This will immediately stop all function of the drone's motors and will require you to disconnect and re-connect the battery in order to resume flight again. Remember to ask the judges presiding over your field time for permission before entering the net to perform this operation.
+This will immediately stop all function of the drone's motors and will require you to disconnect and re-connect the battery in order to resume flight again. Remember to ask the judges presiding over your arena time for permission before entering the net to perform this operation.
 
 ## I2C issues with the PiSugar power supply
 

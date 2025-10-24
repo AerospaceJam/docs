@@ -81,7 +81,7 @@ Any questions regarding competition rules and regulations should be directed to 
   - A single adult may act as a mentor for up to 5 teams, but no more. If a single adult mentor would like to compete with more than 5 teams, please contact competition organizers for assistance. We may also require additional adult mentors if they mentor multiple large (9-10 student) teams, on a case-by-case basis.
   - Teams do not necessarily need to be affiliated with a school, and may be independently formed as long as there are 2-10 students (grades 7 and up) and an adult mentor responsible for them.
 - Teams may seek and use outside help in the construction and coding of their drone platform from any source. However, all programming specific for the competition must be done by student team members, NOT mentors. Publicly available libraries, code examples, and generic code available on public forums, as well as the examples in this documentation are allowed. In other words, all code that is written specifically for the tasks within this competition that is not already available in this documentation must be done by student members.
-- All written portions must be completed and submitted by the deadline published on the [front page of the docs](/). Codebases should also be submitted by this date.
+- All written portions must be completed and submitted by the deadline published on the [front page of the docs](/#season-dates). Codebases should also be submitted by this date.
 - Codebases will be published either on GitHub as public repositories (optionally under open-source licenses) or sent as complete ZIP files (including the `.git` folder). If you are having any issues submitting your codebase, extensions on the deadline may be given. If you make any modifications to your codebase after submitting it, you do not need to re-submit it.
 - Code for the competition may be written in any language, as long as it can be submitted for judging. Code examples and tutorials will be provided in Python, and as such Python will be the primary language the SDK supports. Support in meetings for other languages will be provided, but not with as much priority.
   - Please respect judges' time and please avoid submitting code in languages that are extremely esoteric, difficult to read, niche, or otherwise time or soul-consuming to judge.
@@ -93,7 +93,7 @@ Any questions regarding competition rules and regulations should be directed to 
 - Practice arenas that mimic the competition arena with minor differences will be available in advance for teams to practice flight and test their drone's operation in.
   - Usage of such arenas will be on a strict time block schedule managed by an Aerospace Jam team member. Depending on demand, practice slots may be lengthened or shortened, but no extensions will be issued on practice slots already scheduled.
 - Team members may not enter the arena competition space unless explicitly authorized, and may not retrieve non-functioning drones until the drones are disarmed and they are told to do so and let into the arena by a judge.
-- Propeller guards are not required during the competition, but are recommended if included in your drone kit. When flying in the practice fields, we graciously ask that you use propeller guards for the safety of others who may be passing by the practice arenas, but if you don't have them it's fine.
+- Propeller guards are not required during the competition, but are recommended if included in your drone kit. When flying in the practice arenas, we graciously ask that you use propeller guards for the safety of others who may be passing by the practice arenas, but if you don't have them it's fine.
 - Propellers should not be attached to drones until you're ready to fly or compete. Additionally, you should transport your drone without propellers to avoid breakage. All teams are provided a fixed number of propellers in their kit, and if more than are provided are broken, teams will have to pay a small fee for replacements.
 - All teams must use the drone kit provided to them by the competition organizers. This is, in most cases, the S500 frame. However, exceptions may be made on a case-by-case basis. The drone's total weight at takeoff, including any team-added components and payload, must not exceed 3kg. The drone's frame dimensions may not be modified beyond what is allowed for landing gear.
 - Any payload carried by the drone must be securely attached, unless explicitly designed to detach. The payload must not contain any hazardous materials, including but not limited to liquids, sharp objects, or flammable substances. The total weight and dimensions of the payload must not compromise the drone's flight stability. Judges reserve the right to inspect and disallow any payload deemed unsafe.
@@ -115,7 +115,7 @@ Actions that go against this ethos, such as poor sportsmanship, taunting, or int
 
 ### Spectator Conduct
 
-Spectators are welcome and encouraged, but they must remain in designated viewing areas. Spectators may not interfere with teams, judges, or the competition field in any way.
+Spectators are welcome and encouraged, but they must remain in designated viewing areas. Spectators may not interfere with teams, judges, or the competition arena in any way.
 
 ### Dispute Resolution
 
@@ -128,4 +128,4 @@ In order to submit your [engineering notebook](/rules/scoring/notebook/#submissi
 - Send links, files, or links to files on cloud file-sharing services (such as Google Drive) to organizers on the Discord
 - Or the same, but with an email
 
-In order to have your codebase and notebook recieved, please ONLY send your submissions to Henry - either via `@n3rdl0rd` on Discord, or to `henrymartin.co@outlook.com` via email. In order to send a message on Discord without being filtered for spam, you should also be part of the Aerospace Jam Discord. If this is infeasible, please reach out via email instead. Keep in mind that all deadlines are published on the [front page of the docs](/).
+In order to have your codebase and notebook recieved, please ONLY send your submissions to Henry - either via `@n3rdl0rd` on Discord, or to `henrymartin.co@outlook.com` via email. In order to send a message on Discord without being filtered for spam, you should also be part of the Aerospace Jam Discord. If this is infeasible, please reach out via email instead. Keep in mind that all deadlines are published on the [front page of the docs](/#season-dates).
