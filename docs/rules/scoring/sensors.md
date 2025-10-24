@@ -90,7 +90,7 @@ Demonstrate the ability to capture and transmit image data.
 | **8 Points** | 3 | Transmit a real-time video stream from the drone to the base station at a rate less than 12 frames per second (fps). |
 | **10 Points**| 4 | Transmit a real-time video stream from the drone to the base station at a rate of 12 fps or greater. |
 
-## Payload Manipulation (Up to 25 Points - Cumulative)
+## Payload Manipulation (Up to 35 Points - Cumulative)
 
 This special challenge assesses your ability to interact with and transport a payload. Points are cumulative.
 
@@ -100,3 +100,12 @@ This special challenge assesses your ability to interact with and transport a pa
 | **+5 Points** | Remove | Successfully lift the payload and remove it from the payload cage. |
 | **+5 Points** | Transport | Fly to and land at a designated target location while still carrying the payload. |
 | **+10 Points**| Drop & Land | Successfully drop the payload into a designated target box and then land the drone safely in a final target location. |
+| **+10 Points**| Fancy Maneuvers... | Fly with the payload through a loop approximately 1.5m off the ground, drop the payload into a designated target box, and then land teh drone safely in a final target location. |
+
+:::tip
+If you drop a payload, you can always get another.
+:::
+
+:::note
+We don't actually expect anyone to complete the last one... if you do - good on you! But it isn't included in the total possible maximum for this category since we don't think anyone will actually pull it off.
+:::
