@@ -49,6 +49,39 @@ print(f"Temperature: {temperature} C")
 
 ---
 
+## Advanced: 2D Mapping with a Gyroscope
+
+By spinning your vehicle in place while taking distance measurements, you can create a 2D map of the surrounding environment. This requires combining the distance data from the LiDAR with rotational data from a gyroscope. Here are some hints on how to approach this challenge.
+
+### Understanding Polar Coordinates
+
+The data you collect from the sensors — a distance and an angle — naturally forms a **polar coordinate**. A polar coordinate (`r`, `θ`) defines a point's position in a plane by its distance `r` (radius) from a central point and an angle `θ` (theta) from a reference direction.
+
+- **`r` (radius):** This is the distance value you get directly from the TF-Luna sensor.
+- **`θ` (theta):** This is the total angle your vehicle has rotated, which you must calculate from the gyroscope data's [dead reckoning](/challenges/mpu6050/#advanced-integrating-acceleration).
+
+Your goal is to collect a series of these (`r`, `θ`) points as you rotate a full 360 degrees.
+
+### From Sensor Data to a Map Plot
+
+While you collect data in polar coordinates, most charting libraries (like Chart.js or D3.js) expect **Cartesian coordinates** (`x`, `y`) to create a scatter plot. The key part of this challenge is the conversion.
+
+1. **Track the Angle:** A gyroscope gives you the *rate of rotation* (e.g., in degrees per second), not a fixed angle. To find your current angle, you must continuously add up the small changes in rotation over time. In a loop, measure the time that has passed (`delta_time`), multiply it by the current rotation rate, and add the result to your total `current_angle`. This process is called integration.
+
+2. **Collect the Data:** As your vehicle spins, your Python code should loop quickly, doing two things at nearly the same time: get the current distance from the LiDAR and calculate the current angle from the gyroscope. Store each (`angle`, `distance`) pair together in a list. Wait until the full 360-degree rotation is complete, then send this entire list of data to your web client in a single Socket.IO event.
+
+3. **Convert to Cartesian Coordinates:** Once your JavaScript client receives the list of polar coordinates, it must convert each one to an (`x`, `y`) point before plotting. Use the following standard conversion formulas for each (`r`, `θ`) pair:
+
+    `x = r * cos(θ)`
+    `y = r * sin(θ)`
+
+    A scatter plot of these `x` and `y` points will reveal a top-down map of the surfaces detected by the LiDAR.
+
+    :::warning Watch Your Units!
+    The trigonometric functions in JavaScript (`Math.cos()` and `Math.sin()`) require the angle `θ` to be in **radians**, not degrees. Before you perform the conversion, you must convert your angle from degrees to radians:
+    `radians = degrees * (Math.PI / 180)`
+    :::
+
 ## Advanced: Reading Data Manually
 
 This section is for teams who are not using the SDK or who want to write their own sensor library in a different language. The following steps outline the communication protocol and data parsing required to get readings directly from the TF-Luna. The primary method of communication with the Raspberry Pi is via its UART serial interface.
