@@ -88,3 +88,84 @@ Motor not spinning? Run through this quick checklist:
 - **Hardware Test:** Briefly touch the two motor wires directly to the 9V battery terminals. If it doesn't spin, the motor itself may be broken.
 
 Still stuck? Reach out to competition administrators for help.
+
+## Advanced: Changing Motor Speed
+
+Controlling the motor's speed is possible by using a technique called Pulse Width Modulation (PWM). Instead of just a simple HIGH or LOW signal, PWM rapidly switches the power on and off. The percentage of time the signal is "on" is called the **duty cycle**. A 100% duty cycle is the same as a constant HIGH signal (full speed), while a 0% duty cycle is the same as a LOW signal (stopped). Anything in between will result in a proportional motor speed.
+
+To control the speed, you'll need to make a small wiring change and update your code.
+
+### Wiring
+
+1. On the L298N motor controller, you'll see a small black jumper on a pin labeled `ENA`. Remove this jumper.
+2. Connect a jumper wire from the `ENA` pin on the L298N to a PWM-capable GPIO pin on your Raspberry Pi. For this example, we'll use `GPIO 18`.
+
+### Code
+
+The `RPi.GPIO` library can create a PWM signal. Here's how to modify the previous code to include speed control.
+
+```py
+import RPi.GPIO as GPIO
+from time import sleep
+
+# Define our motor controller pins
+IN1 = 12
+IN2 = 13
+ENA = 18 # The new ENA pin
+
+# Set the GPIO numbering mode
+GPIO.setmode(GPIO.BCM)
+
+# Set up the GPIO pins as output
+GPIO.setup(IN1, GPIO.OUT)
+GPIO.setup(IN2, GPIO.OUT)
+GPIO.setup(ENA, GPIO.OUT)
+
+# Create a PWM instance for the ENA pin
+# The second argument is the frequency in Hertz. 100Hz is a good starting point.
+pwm = GPIO.PWM(ENA, 100)
+
+# Start PWM with a duty cycle of 0 (motor is off)
+pwm.start(0)
+
+def motor_forward(speed):
+    """Turns the motor forward at a given speed (0-100)"""
+    GPIO.output(IN1, GPIO.HIGH)
+    GPIO.output(IN2, GPIO.LOW)
+    pwm.ChangeDutyCycle(speed)
+
+def motor_backward(speed):
+    """Turns the motor backward at a given speed (0-100)"""
+    GPIO.output(IN1, GPIO.LOW)
+    GPIO.output(IN2, GPIO.HIGH)
+    pwm.ChangeDutyCycle(speed)
+
+def motor_stop():
+    """Stops the motor"""
+    GPIO.output(IN1, GPIO.LOW)
+    GPIO.output(IN2, GPIO.LOW)
+    pwm.ChangeDutyCycle(0)
+
+# Example usage:
+print("Moving forward at 50% speed...")
+motor_forward(50)
+sleep(3)
+
+print("Moving backward at 100% speed...")
+motor_backward(100)
+sleep(3)
+
+print("Moving forward at 25% speed...")
+motor_forward(25)
+sleep(3)
+
+print("Stopping...")
+motor_stop()
+sleep(3)
+
+# Don't forget to clean up the GPIO pins and stop PWM
+pwm.stop()
+GPIO.cleanup()
+```
+
+With these changes, you can now call `motor_forward()` and `motor_backward()` with a speed value from 0 to 100 to control how fast the motor spins.
