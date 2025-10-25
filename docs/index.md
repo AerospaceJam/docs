@@ -10,9 +10,7 @@ import DiscordCallout from '@site/src/components/DiscordCallout';
 
 ---
 
-TODO: reveal video here! for now pretend this is our season reveal
-
-<iframe width="100%" height="550" src="https://www.youtube-nocookie.com/embed/KFG8AVvORag" title="Drone Build Introduction 720" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+<iframe width="100%" height="550" src="https://www.youtube-nocookie.com/embed/31Qeg75SGbw" title="Drone Build Introduction 720" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
 
 ---
 
@@ -38,10 +36,10 @@ This site contains the full rules, scoring criteria, and laws for the 2025-2026 
 ## Season Dates
 
 <h3><center>Competition</center></h3>
-<Countdown targetDate="2026-04-05T07:00:00" />
+<Countdown targetDate="2026-04-10T07:00:00" />
 
 <h3><center>Notebook/Codebase Deadline</center></h3>
-<Countdown targetDate="2026-04-03T20:00:00" />
+<Countdown targetDate="2026-04-01T20:00:00" />
 
 <center>See [Submitting Your Codebase/Notebook](/rules/laws/#submitting-your-codebasenotebook) for more information.</center>
 
