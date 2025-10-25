@@ -56,7 +56,7 @@ This task demonstrates advanced control and spatial awareness.
 ## Penalties and Clarifications
 
 - Teams may make multiple attempts to complete each navigation task within their allotted flight time, but points for each task can only be awarded once. A judge will notify the team when a task is successfully completed.
-- **Crash Penalty (-3 Points):** A "crash" is any event that requires human assistance to return the drone to a flyable state (e.g., caught in a net, flipped over, broken propeller). This penalty is applied once per match. Rough landings that do not require human intervention do not count as a crash.
+- **Crash Penalty (-5 Points):** A "crash" is any event that requires human assistance to return the drone to a flyable state (e.g., caught in a net, flipped over, broken propeller). This penalty is applied once per match. Rough landings that do not require human intervention do not count as a crash.
 
 :::info
 The crash penalty is subtracted from the team's total score for this category. For example, a team that earns 16 points but crashes once will have a final navigation score of 13.
