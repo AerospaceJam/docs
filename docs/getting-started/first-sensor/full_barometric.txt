@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Aerospace Jam Example</title>
+    <script src="{{ url_for('static', filename='js/socket.io.js') }}"></script>
+</head>
+<body>
+    <h1>Aerospace Jam Example</h1>
+    <p><b>Random number chosen by the Pi: </b> <span id="randomNumber">Loading...</span></p>
+    <!-- Added: -->
+    <p><b>Barometric Pressure: </b> <span id="barometricPressure">Loading...</span> hPa</p>
+    <script>
+        document.addEventListener('DOMContentLoaded', function() {
+            var socket = io.connect('http://' + document.domain + ':' + location.port);
+            socket.on('update_data', function(msg) {
+                var randomNumberSpan = document.getElementById('randomNumber');
+                randomNumberSpan.textContent = msg.randomNumber;
+                // Added:
+                var barometricPressureSpan = document.getElementById('barometricPressure');
+                barometricPressureSpan.textContent = msg.barometricPressure;
+            });
+        });
+    </script>
+</body>
+</html>
