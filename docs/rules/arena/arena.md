@@ -70,5 +70,5 @@ There will *always* be a series of navigational obstacles between the Home Targe
 
 The current version of the arena CAD is ***v12***.
 
-- Fusion 360: [Download](/Field%20Outline%20v12.f3d)
-- STEP: [Download](/Field%20Outline%20v12.step)
+- Fusion 360: <a href="/Field%20Outline%20v12.f3d">Download</a>
+- STEP: <a href="/Field%20Outline%20v12.step">Download</a>
