@@ -171,7 +171,7 @@ This is the #1 cause of sensor issues.
 #### 2. Check for I2C and Power Issues
 
 - **Is I2C enabled?** Run `sudo raspi-config nonint get_i2c`. If it returns `0`, it's enabled. If it returns `1`, it's disabled. Run `sudo raspi-config nonint do_i2c 0` to enable it.
-- **Is the PiSugar switch correct?** Verify the switch on your PiSugar power supply is ***NOT*** set to the `ON` (auto) position, as it can interfere with the I2C pins.
+- **Is the PiSugar switch correct?** Verify the switch labeled "auto" on your PiSugar power supply is ***NOT*** set to the `ON` position, as it can interfere with the I2C pins.
   ![correct switch position](image.png)
 
 #### 3. Check the Code

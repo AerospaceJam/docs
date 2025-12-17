@@ -39,7 +39,7 @@ This will immediately stop all function of the drone's motors and will require y
 
 ## I2C issues with the PiSugar power supply
 
-Some sensors use a protocol called I2C, which requires two reserved pins on your Raspberry Pi. However, when left in its default mode, the PiSugar power supply that we use for Aerospace Jam wil interfere with this protocol and use these two pins for its own purposes, which we don't want. In order to disable it, make sure that the switch on the PiSugar is ***NOT*** set to "auto", and is instead off, as shown in the below picture:
+Some sensors use a protocol called I2C, which requires two reserved pins on your Raspberry Pi. However, when left in its default mode, the PiSugar power supply that we use for Aerospace Jam wil interfere with this protocol and use these two pins for its own purposes, which we don't want. In order to disable it, make sure that the switch on the PiSugar labeled "auto" is ***NOT*** set to "on", and is instead off, as shown in the below picture:
 
 ![pisugar switch](../first-sensor/image.png)
 

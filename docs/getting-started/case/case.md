@@ -38,7 +38,7 @@ This should lightly stick in place, even without screws, because of the heatsink
 
 ## The bottom
 
-Now, flip it over so you can see the bottom of the Pi and the metal of the case is sitting down. Get your PiSugar power supply, and first ***verify that the power switch is in the off position and the mode switch is NOT set to `auto`.***
+Now, flip it over so you can see the bottom of the Pi and the metal of the case is sitting down. Get your PiSugar power supply, and first ***verify that the power switch is in the off position and the switch labeled "auto"  is NOT set to `ON`.***
 
 Then, find where the battery and the Pi sit nicely together. The PiSugar has four spring-loaded 'pogo' pins that need to press directly onto the four corresponding gold-plated pads on the underside of the Pi Zero, like shown below:
 
