@@ -11,6 +11,11 @@ The following videos, created by Prof. Mortensen, will provide you a tutorial fo
 
 <iframe width="100%" height="550" src="https://www.youtube-nocookie.com/embed/KFG8AVvORag" title="Drone Build Introduction 720" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
 
+## Battery Charging and Safety
+
+<iframe width="100%" height="550" src="https://www.youtube-nocookie.com/embed/toCBNhhid70" title="Battery Charging and Safety" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+
+
 ## Final Assembly
 
 <iframe width="100%" height="550" src="https://www.youtube-nocookie.com/embed/M0C7MH8MeFc" title="Drone Build Final Connections 720" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
@@ -18,3 +23,7 @@ The following videos, created by Prof. Mortensen, will provide you a tutorial fo
 ## Software Calibration (qGroundControl)
 
 <iframe width="100%" height="550" src="https://www.youtube-nocookie.com/embed/ttlDLn0GSGA" title="QGroundControl 1 Tutorial" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+
+## Software Calibration (Alternate model, Mission Planner)
+
+<iframe width="100%" height="550" src="https://www.youtube-nocookie.com/embed/oZCuWY-yNqs" title="Software Calibration 720" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
