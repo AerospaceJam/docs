@@ -13,9 +13,9 @@ This page documents the basic specifications of the arena that will be used on [
 
 At a high level, the arena contains neccesary structures to complete the following [Sensor challenges](/rules/scoring/sensors):
 
-- Targets for [LiDAR sensing](/rules/scoring/sensors/#lidar-up-to-15-points)
-- An elevated platform as a target for the [camera](/rules/scoring/sensors/#camera-up-to-10-points)
-- An enclosed box with holes for retrieving [payloads](/rules/scoring/sensors/#payload-manipulation-up-to-35-points---cumulative), and a target location to drop payloads in
+- Targets for [LiDAR sensing](/rules/scoring/sensors/#lidar-up-to-8-points)
+- An elevated platform as a target for the [camera](/rules/scoring/sensors/#camera-up-to-5-points)
+- An enclosed box with holes for retrieving [payloads](/rules/scoring/sensors/#payload-manipulation-up-to-15-points---cumulative), and a target location to drop payloads in
 
 As well as this, the arena contains neccesary landing targets and obstacles to complete all [Navigation challenges](/rules/scoring/faa-and-navigation), including an elevated vertical hoop to fly through and (optionally) various obstacles to prevent navigation near the ground in certain sections of the arena.
 
