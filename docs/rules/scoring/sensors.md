@@ -23,7 +23,7 @@ This category assesses a team's ability to integrate sensors, gather data, and p
 - For all challenges except Payload, your team will be awarded points **only for the highest tier you successfully complete**. For example, if you complete Level 2 and Level 3 of the Barometric Pressure challenge, you will receive only the Level 3 score.
 - The Payload challenge is cumulative. You earn points for each sub-task you complete.
 - All tasks must be demonstrated to a judge's satisfaction. The drone must perform the action, and the resulting data must be correctly displayed on the base station where applicable.
-- If you do not feel confident in your ability to remotely pilot the drone while taking sensor readings, you may choose to walk your drone through the course. This will incur a penalty of halving your point total for this section, rounded up.
+- If you do not feel confident in your ability to remotely pilot the drone while taking sensor readings, you may choose to walk your drone through the course. All interactions with the drone still must be triggered remotely. This will incur a penalty of halving your point total for this section, rounded up.
 :::
 
 ---
